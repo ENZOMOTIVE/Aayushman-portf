@@ -8,7 +8,7 @@ body {
 
 @keyframes gradientAnimation {
   0% { background-position: 0% 50%; }
-  50% { background-position: 50% 50%; }
+  50% { background-position: 50% 70%; }
   100% { background-position: 0% 50%; }
 }
 
@@ -89,21 +89,29 @@ nav ul li a:hover {
   width: 400px;
   height: 400px;
   margin-right: 20px;
-  border: 4px solid white; /* Add this line to give the image a white border */
+  border: 4px solid white;
+  
 }
 
 .profile-details {
   text-align: left;
+
 }
 
 .profile-details h1 {
   font-size: 2.5em;
-  color: black;
-  margin: 0;
+  color: black; 
+  margin: 30px -28px 18px 13px;
 }
 
 .profile-details p {
   font-size: 1.2em;
   color: white;
-  margin: 10px 0 0 0;
+  margin: 26px 0 0 10px;
+  
+}
+
+h2{
+  color:#61dafb;
+  margin: 30px -28px 18px 13px;
 }
