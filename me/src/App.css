@@ -43,7 +43,7 @@ nav ul li a {
   font-size: 18px;
   transition: all 0.3s ease;
   position: relative;
-  cursor: pointer; /* Apply cursor style */
+  cursor: pointer;
 }
 
 nav ul li a::after {
@@ -69,4 +69,22 @@ nav ul li a:hover {
   transform: scale(1.1);
 }
 
-/* Other component-specific styles */
+/* Styles for the home page */
+.home {
+  height: 100vh; /* Set the height of the home page to the full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home h1 {
+  font-size: 3em;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 1.5em;
+  color: white;
+}
