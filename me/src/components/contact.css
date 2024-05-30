@@ -1,0 +1,28 @@
+.contact {
+    padding: 100px 20px 20px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #282c34;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .contact-links a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-links a img:hover {
+    transform: scale(1.1);
+  }
+  
