@@ -21,10 +21,10 @@ function Projects() {
 
   return (
     <div className="projects">
-      <h2>My Projects</h2>
+      <h2>Projects</h2>
       <Slider {...settings}>
         {projects.map((project) => (
-          <div key={project.id} className="project">
+          <div key={project.id} className="project-item">
             <h3>{project.title}</h3>
             <p>{project.description}</p>
           </div>

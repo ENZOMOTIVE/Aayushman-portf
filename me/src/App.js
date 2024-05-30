@@ -1,6 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/navbar';
+import { Link, Element, scroller } from 'react-scroll';
+import './App.css';
 import Home from './components/home';
 import Education from './components/education';
 import Skills from './components/skills';
@@ -8,24 +8,32 @@ import Projects from './components/projects';
 import Research from './components/research';
 import ExtraCurricular from './components/extracurricular';
 import Contact from './components/contact';
-import './App.css';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/research" element={<Research />} />
-          <Route path="/extra-curricular" element={<ExtraCurricular />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className="App">
+      <header className="App-header">
+        <nav>
+          <ul>
+            <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
+            <li><Link to="education" smooth={true} duration={500}>Education</Link></li>
+            <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
+            <li><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
+            <li><Link to="research" smooth={true} duration={500}>Research</Link></li>
+            <li><Link to="extra-curricular" smooth={true} duration={500}>Extra-Curricular</Link></li>
+            <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
+          </ul>
+        </nav>
+      </header>
+
+      <Element name="home"><Home /></Element>
+      <Element name="education"><Education /></Element>
+      <Element name="skills"><Skills /></Element>
+      <Element name="projects"><Projects /></Element>
+      <Element name="research"><Research /></Element>
+      <Element name="extra-curricular"><ExtraCurricular /></Element>
+      <Element name="contact"><Contact /></Element>
+    </div>
   );
 }
 
