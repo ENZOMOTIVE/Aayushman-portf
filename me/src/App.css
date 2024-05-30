@@ -41,11 +41,32 @@ nav ul li a {
   color: white;
   text-decoration: none;
   font-size: 18px;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  cursor: pointer; /* Apply cursor style */
+}
+
+nav ul li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #61dafb;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+  left: 0;
+  background: #61dafb;
 }
 
 nav ul li a:hover {
   color: #61dafb;
+  transform: scale(1.1);
 }
 
 /* Other component-specific styles */
