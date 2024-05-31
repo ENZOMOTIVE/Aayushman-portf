@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Element, scroller } from 'react-scroll';
+import { Link, Element} from 'react-scroll';
 import './App.css';
 import Home from './components/home';
 import Education from './components/education';
