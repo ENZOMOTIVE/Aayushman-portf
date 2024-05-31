@@ -16,6 +16,8 @@ import CssLogo from './assets/css-logo.png';
 import ExpressLogo from './assets/Express.js-logo.png';
 import IPFS from './assets/IPFS-logo.png';
 import Docker from './assets/docker-logo.png';
+import Git from './assets/git-logo.png';
+import C from './assets/c-logo.jpg';
 // Import additional logos as needed
 
 function Skills() {
@@ -63,7 +65,7 @@ function Skills() {
       </div>
 
       <div className="skills-section">
-        <h3>Front End</h3>
+        <h3>Web Development</h3>
         <div className="skills-items">
         <div className="skill-item">
             <img src={ HtmlLogo} alt="HTML" className="skill-logo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
@@ -77,30 +79,37 @@ function Skills() {
           <div className="skill-item">
             <img src={reactLogo} alt="React" className="skill-logo" />
           </div>
+          <div className="skill-item">
+            <img src={jsLogo} alt="JavaScript" className="skill-logo"  style={{ width: '91%', height: '120%', objectFit: 'cover' }}/>
+          </div>
 
+          <div className="skill-item">            
+            <img src={nodejsLogo} alt="Node.js" className="skill-logo" style={{ width: '91%', height: '92%', objectFit: 'cover' }} />
+          </div>
+
+          <div className="skill-item" style={{ width: '114%', height: '80%', objectFit: 'cover' }} >
+            <img src={ExpressLogo} alt="Express" className="skill-logo" />
+          </div>
 
           {/* Add more front end skill items here */}
         </div>
       </div>
 
       <div className="skills-section">
-        <h3>Back End</h3>
+        <h3>Other Technologies</h3>
         <div className="skills-items">
-        <div className="skill-item">
-            <img src={jsLogo} alt="JavaScript" className="skill-logo" />
-          </div>
-
-          <div className="skill-item">
-            
-            <img src={nodejsLogo} alt="Node.js" className="skill-logo" />
-          </div>
-
-          <div className="skill-item" style={{ width: '89%', height: '69%', objectFit: 'cover' }} >
-            <img src={ExpressLogo} alt="Express" className="skill-logo" />
-          </div>
+        
 
           <div className="skill-item">
             <img src={pythonLogo} alt="Python" className="skill-logo" />
+          </div>
+
+          <div className="skill-item">
+            <img src={Git} alt="Python" className="skill-logo" />
+          </div>
+
+          <div className="skill-item">
+            <img src={C} alt="C" className="skill-logo" style={{ width: '100%', height: '156%', objectFit: 'cover' }}/>
           </div>
 
           <div className="skill-item">
