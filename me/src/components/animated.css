@@ -4,6 +4,7 @@
     height: 40px; /* Adjust size as needed */
     border-radius: 50%; /* Make logos round */
     animation: moveLogo linear infinite;
+    animation: moveLogo 10s ease-in-out infinite; /* Adjust duration as needed */
   }
   
   .logos-container {
@@ -23,13 +24,23 @@
   
   @keyframes moveLogo {
     0% {
-      transform: translateY(0) translateX(0) rotate(0deg);
+      transform: translate(
+        calc(-50vw + 100px),
+        calc(-50vh + 100px)
+      ) rotate(0deg);
     }
     50% {
-      transform: translateY(-100px) translateX(50px) rotate(90deg);
+      transform: translate(
+        calc(50vw - 100px),
+        calc(50vh - 100px)
+      ) rotate(90deg);
     }
     100% {
-      transform: translateY(0) translateX(0) rotate(0deg);
+      transform: translate(
+        calc(-50vw + 100px),
+        calc(-50vh + 100px)
+      ) rotate(0deg);
     }
   }
+  
   
