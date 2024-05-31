@@ -70,7 +70,7 @@
 }
 
 .education-item.left .logo-container {
-  margin-left: 0; /* Remove margin */
+  margin-left: 15px; /* Remove margin */
   margin-right: 20px;
 }
 
@@ -79,8 +79,4 @@
   margin-left: 20px;
 }
 
-.khalikote-college-logo{
-  width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
