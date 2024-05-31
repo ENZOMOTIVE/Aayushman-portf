@@ -124,16 +124,21 @@ h2 {
   background-color: black;
   padding: 20px;
   border-radius: 10px;
-  margin: 10px 0;
+  margin-top: 40px; /* Increased margin-top to move it further below the name */
 }
 
 .about-box h2 {
   color: #61dafb;
+  margin-bottom: 20px; /* Add margin-bottom to space it from the paragraph */
 }
 
 .about-box p {
   color: white;
-  margin: 10px 0;
+  margin: 20px 0; /* Add more space between paragraphs */
+}
+
+.about-box p:last-of-type {
+  margin-bottom: 0; /* Ensure last paragraph has no bottom margin */
 }
 
 @keyframes typing {
