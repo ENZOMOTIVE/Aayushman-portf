@@ -104,10 +104,6 @@ nav ul li a:hover {
   white-space: nowrap; /* Keep the text on one line */
   overflow: hidden; /* Hide the overflow to make the typing effect */
   border-right: 0.15em solid black; /* The caret */
-  animation: 
-    typing 4s steps(30, end), 
-    blink-caret 0.75s step-end infinite 4s, /* Blink the caret */
-    disappear-caret 0.5s forwards 8s; /* Disappear the caret */
 }
 
 .profile-details p {
@@ -155,6 +151,13 @@ h2 {
   0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
   40% { transform: translateY(-10px); }
   60% { transform: translateY(-5px); }
+}
+
+.typing {
+  animation: 
+    typing 4s steps(30, end), 
+    blink-caret 0.75s step-end infinite 4s, /* Blink the caret */
+    disappear-caret 0.5s forwards 8s; /* Disappear the caret */
 }
 
 @keyframes typing {
