@@ -33,7 +33,7 @@
   background-color: white; /* Set background color to white */
   border-radius: 10px; /* Slightly rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease ;
   width: 100px; /* Set fixed width */
   height: 100px; /* Set fixed height */
   overflow: hidden; /* Ensure the image covers the container */
@@ -43,8 +43,8 @@
 }
 
 .skill-item:hover {
-  transform: scale(1.1); /* Slightly increase size on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: scale(1.4); /* Slightly increase size on hover */
+  box-shadow: 10px 15px 20px #61dafb;
 }
 
 .skill-logo {
