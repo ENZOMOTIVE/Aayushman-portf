@@ -10,11 +10,11 @@ function Home() {
         <img className="profile-pic" src={image} alt="Profile" />
         <div className="profile-details">
           <h1>Aayushman Bhaba Padhy</h1>
-          <h2> About me </h2>
-          <p>I am a B.TECH CSE final year Undergrad with growing Excitement in Blockchain and Cryptography </p>
-          
-          
-          <p>Full Stack Blockchain Developer</p>
+          <div className="about-box">
+            <h2>About me</h2>
+            <p>I am a B.TECH CSE final year Undergrad with growing Excitement in Blockchain and Cryptography</p>
+            <p>Full Stack Blockchain Developer</p>
+          </div>
         </div>
       </div>
     </div>
