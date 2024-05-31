@@ -6,12 +6,12 @@ function Education() {
     <div className="education">
       <h2>Education</h2>
       <div className="education-item">
-        <h3>Bachelor of Science in Computer Science</h3>
-        <p>University XYZ, 2016 - 2020</p>
+        <h3>Bachelors in Computer Science Engineering</h3>
+        <p>NIST University, Berhampur Odisha, India  (2021-2021) </p>
       </div>
       <div className="education-item">
-        <h3>Master of Science in Artificial Intelligence</h3>
-        <p>University ABC, 2020 - 2022</p>
+        <h3>Higher Secondary Education</h3>
+        <p>Khalikote Higher Secondary School, Berhampur, Odisha, India (2019 - 2021)</p>
       </div>
     </div>
   );

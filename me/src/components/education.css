@@ -1,19 +1,23 @@
 .education {
-    padding: 100px 20px 20px;
-    text-align: center;
-  }
-  
-  .education h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: #282c34;
-  }
-  
-  .education-item {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-  }
-  
+  padding: 100px 20px 20px;
+  text-align: center;
+}
+
+.education h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #282c34;
+}
+
+.education-item {
+  background-color: black; /* Change background color to black */
+  color: white; /* Change text color to white */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.education-item h3 {
+  color: #61dafb;
+}
