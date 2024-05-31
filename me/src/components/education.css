@@ -5,19 +5,45 @@
 
 .education h2 {
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 40px; /* Increase spacing between Education title and items */
   color: #282c34;
 }
 
 .education-item {
-  background-color: black; /* Change background color to black */
-  color: white; /* Change text color to white */
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
+  background-color: black; /* Set background color to black */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  padding: 20px; /* Add padding for spacing */
+  margin-bottom: 40px; /* Increase spacing between education items */
 }
 
-.education-item h3 {
-  color: #61dafb;
+.education-details {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+}
+
+.logo-container {
+  width: 100px; /* Set width of the logo container */
+  height: 100px; /* Set height of the logo container */
+  overflow: hidden; /* Hide any overflow from the logo */
+  border-radius: 50%; /* Make the container round */
+  margin-right: 20px; /* Adjust spacing between logo and education text */
+}
+
+.college-logo {
+  width: 100%; /* Make the logo fill the container */
+  height: 100%; /* Make the logo fill the container */
+  object-fit: cover; /* Ensure the logo covers the entire container */
+}
+
+.education-text {
+  flex-grow: 1; /* Allow text to grow and take remaining space */
+}
+
+.education-text h3 {
+  margin-bottom: 10px;
+  color: white; /* Adjust color of education item titles */
+}
+
+.education-text p {
+  color: white; /* Adjust color of education item descriptions */
 }
