@@ -23,24 +23,23 @@
 }
 
 .skills-items {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Create a responsive grid */
   gap: 20px;
+  justify-items: center; /* Center items within the grid cells */
 }
 
 .skill-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: white; /* Set background color to white */
-  padding: 0; /* Remove padding to allow image to cover entire container */
-  border-radius: 10px; /* Make them slightly rounded */
+  border-radius: 10px; /* Slightly rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   width: 100px; /* Set fixed width */
   height: 100px; /* Set fixed height */
   overflow: hidden; /* Ensure the image covers the container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .skill-item:hover {
