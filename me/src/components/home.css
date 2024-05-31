@@ -113,7 +113,7 @@ nav ul li a:hover {
 }
 
 h2 {
-  color: #61dafb;
+  color: #61dafb#61dafb;
   margin: 14px -28px 29px 2px;
 }
 
@@ -173,4 +173,18 @@ h2 {
 @keyframes disappear-caret {
   0% { border-color: black; }
   100% { border-color: transparent; }
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 20px;
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  cursor: pointer; /* Change cursor to pointer */
+  transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.scroll-down:hover {
+  transform: translateY(-3px); /* Move the element up on hover */
 }
