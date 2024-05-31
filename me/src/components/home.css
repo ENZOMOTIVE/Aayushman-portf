@@ -182,7 +182,8 @@ h2 {
   color: white;
   text-align: center;
   cursor: pointer; /* Change cursor to pointer */
-  transition: transform 0.3s ease; /* Add transition for smooth effect */
+  transition: transform 0.3s ease;
+  margin-left: -85px; /* Add transition for smooth effect */
 }
 
 .scroll-down:hover {

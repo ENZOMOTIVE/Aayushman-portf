@@ -79,4 +79,11 @@
   margin-left: 20px;
 }
 
+.logo-link {
+  text-decoration: none;
+  color: inherit;
+}
 
+.logo-link:hover {
+  cursor: pointer; /* Change cursor on hover */
+}
