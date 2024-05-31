@@ -1,21 +1,55 @@
 .skills {
-    padding: 100px 20px 20px;
-    text-align: center;
-  }
-  
-  .skills h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: #282c34;
-  }
-  
-  .skill-item {
-    display: inline-block;
-    background-color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    font-size: 18px;
-  }
-  
+  padding: 50px 20px;
+  text-align: center;
+  background-color: black; /* Set background color to black */
+  color: white; /* Set text color to white */
+  min-height: 100vh; /* Ensure the component takes up the full viewport height */
+}
+
+.skills h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #61dafb; /* Set heading color to match other sections */
+}
+
+.skills-section {
+  margin-bottom: 40px;
+}
+
+.skills-section h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #61dafb;
+}
+
+.skills-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white; /* Set background color to white */
+  padding: 0; /* Remove padding to allow image to cover entire container */
+  border-radius: 10px; /* Make them slightly rounded */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100px; /* Set fixed width */
+  height: 100px; /* Set fixed height */
+  overflow: hidden; /* Ensure the image covers the container */
+}
+
+.skill-item:hover {
+  transform: scale(1.1); /* Slightly increase size on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.skill-logo {
+  width: 100%; /* Ensure the logo covers the entire container */
+  height: 100%;
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+}

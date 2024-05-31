@@ -13,7 +13,7 @@ function WorkExperience() {
         {/* Bariflo */}
         <div className="work-experience-item right">
           <div className="logo-container">
-            <img src={bariflo} alt="Company Logo" className="company-logo" />
+            <img src={bariflo} alt="Company Logo" className="company-logo"  />
           </div>
           <div className="work-experience-details">
             <h3>Blockchain Developer Intern</h3>
@@ -37,6 +37,8 @@ function WorkExperience() {
             <img src={linkedinLogo} alt="LinkedIn Logo" className="linkedin-logo" />
           </a>
         </div>
+    
+
       </div>
     </div>
   );
