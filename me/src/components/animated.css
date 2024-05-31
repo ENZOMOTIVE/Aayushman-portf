@@ -1,0 +1,35 @@
+.logo {
+    position: absolute;
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    border-radius: 50%; /* Make logos round */
+    animation: moveLogo linear infinite;
+  }
+  
+  .logos-container {
+    position: fixed; /* Set the position to fixed */
+    top: 0; /* Position it at the top of the viewport */
+    left: 0; /* Position it at the left of the viewport */
+    width: 100%; /* Take up the full width of the viewport */
+    height: 100%; /* Take up the full height of the viewport */
+    pointer-events: none; /* Make the logos not affect pointer events */
+    z-index: 1; /* Ensure it appears below other content */
+  }
+  
+  .profile-container {
+    position: relative; /* Set the position to relative */
+    z-index: 2; /* Ensure it appears above the logos */
+  }
+  
+  @keyframes moveLogo {
+    0% {
+      transform: translateY(0) translateX(0) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-100px) translateX(50px) rotate(90deg);
+    }
+    100% {
+      transform: translateY(0) translateX(0) rotate(0deg);
+    }
+  }
+  

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './home.css';
 import { Link } from 'react-scroll';
+import AnimatedLogos from './animated';
 
 const image = require('./profile-pic.jpg');
 
@@ -36,6 +37,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <AnimatedLogos />
       <Link to="education" smooth={true} duration={500}>
         <div className="scroll-down">
           Scroll down to see more
