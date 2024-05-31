@@ -17,6 +17,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className="scroll-down">Scroll down to see more</div>
     </div>
   );
 }
