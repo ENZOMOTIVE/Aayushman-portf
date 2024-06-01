@@ -5,9 +5,10 @@ import 'slick-carousel/slick/slick-theme.css';
 import './projects.css';
 
 import medicareLogo from './assets/medicare-pic.png'; // Ensure this path is correct
+import nistconnectLogo from './assets/nist-connectLogo.png';
 const projects = [
-  { id: 1, title: 'MediCare 2.O', description: 'This model helps the users store their health records safely on the BNB blockchain, along with the digital copy in an IPFS storage system provided by Pinata.', image: medicareLogo, codeLink: 'https://github.com/your-repo/project-one', tryLink: 'https://project-one-demo.com' },
-  { id: 2, title: 'Project Two', description: 'Description for project two.', image: '', codeLink: 'https://github.com/your-repo/project-two', tryLink: 'https://project-two-demo.com' },
+  { id: 1, title: 'MediCare 2.O', description: 'This model helps the users store their health records safely on the BNB blockchain, along with the digital copy in an IPFS storage system provided by Pinata.', image: medicareLogo, codeLink: 'https://github.com/ENZOMOTIVE/MediCare-2.O', tryLink: 'https://medi-care-2-o.vercel.app/' },
+  { id: 2, title: 'NIST Connect', description: 'A Decentralized Chatting Application ', image: nistconnectLogo, codeLink: 'https://github.com/ENZOMOTIVE/chatting_dapp', tryLink: 'https://nist-connect-three.vercel.app/' },
   // Add more projects as needed
 ];
 
