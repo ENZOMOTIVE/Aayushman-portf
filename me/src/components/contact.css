@@ -1,28 +1,42 @@
 .contact {
-    padding: 100px 20px 20px;
-    text-align: center;
-  }
-  
-  .contact h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: #282c34;
-  }
-  
-  .contact-links {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-  }
-  
-  .contact-links a img {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.3s ease;
-  }
-  
-  .contact-links a img:hover {
-    transform: scale(1.1);
-  }
-  
+  padding: 31px 20px 45px;
+  text-align: center;
+  background-color: black; /* Set background color to black */
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: aqua;
+}
+
+.contact p {
+  color: white; /* Set text color to white */
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Add gap between logos */
+  margin-top: 20px;
+}
+
+.contact-links a {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add box-shadow transition */
+}
+
+.contact-links a img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-links a:hover {
+  transform: scale(1.4); /* Slightly increase size on hover */
+  box-shadow: 10px 0px 20px #61dafb; /* Increase the alpha value (opacity) */
+}
+
