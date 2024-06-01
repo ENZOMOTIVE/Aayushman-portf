@@ -23,9 +23,6 @@ function Projects() {
   return (
     <div className="projects">
       <h2>Projects</h2>
-      <br></br>
-      <br></br>
-      <br></br>
       <Slider {...settings}>
         {projects.map((project) => (
           <div key={project.id} className="project-item">
