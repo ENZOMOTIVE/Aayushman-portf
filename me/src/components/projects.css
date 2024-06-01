@@ -37,7 +37,6 @@
 .project-image {
   width: 100%;
   border-radius: 10px;
-  margin-top: 22px;
 }
 
 .project-content {
@@ -54,6 +53,26 @@
   font-size: 18px;
 }
 
+.button-container {
+  margin-top: 20px;
+}
+
+.project-button {
+  display: inline-block;
+  background-color: #61dafb;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.project-button:hover {
+  background-color: aqua;
+}
+
 h3{
-  color: aqua;
+color: aqua;
 }

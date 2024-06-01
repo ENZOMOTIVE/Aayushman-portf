@@ -6,8 +6,8 @@ import './projects.css';
 
 import medicareLogo from './assets/medicare-pic.png'; // Ensure this path is correct
 const projects = [
-  { id: 1, title: 'MediCare 2.O', description: 'This model helps the users store their health records safely on the BNB blockchain, along with the digital copy in an IPFS storage system provided by Pinata. ', image: medicareLogo },
-  { id: 2, title: 'Project Two', description: 'Description for project two.' },
+  { id: 1, title: 'MediCare 2.O', description: 'This model helps the users store their health records safely on the BNB blockchain, along with the digital copy in an IPFS storage system provided by Pinata.', image: medicareLogo, codeLink: 'https://github.com/your-repo/project-one', tryLink: 'https://project-one-demo.com' },
+  { id: 2, title: 'Project Two', description: 'Description for project two.', image: '', codeLink: 'https://github.com/your-repo/project-two', tryLink: 'https://project-two-demo.com' },
   // Add more projects as needed
 ];
 
@@ -32,6 +32,10 @@ function Projects() {
             <div className="project-content">
               <h3>{project.title}</h3>
               <p>{project.description}</p>
+              <div className="button-container">
+                <a href={project.codeLink} className="project-button" target="_blank" rel="noopener noreferrer">View Code</a>
+                <a href={project.tryLink} className="project-button" target="_blank" rel="noopener noreferrer">Try it Out</a>
+              </div>
             </div>
           </div>
         ))}
