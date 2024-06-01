@@ -1,18 +1,26 @@
-.extra-curricular {
-    padding: 100px 20px 20px;
-    text-align: center;
-  }
-  
-  .extra-curricular h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: #282c34;
-  }
-  
-  .activity-item {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
+.extracurricular {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.activity {
+  margin-bottom: 40px;
+}
+
+.activity h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #61dafb;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+}
+.activity-image {
+ width:70%;/* Set the width to your desired card width */
+  height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+

@@ -1,35 +1,25 @@
 import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import './extracurricular.css';
 
-const activities = [
-  { id: 1, title: 'Activity One', description: 'Description for activity one.' },
-  { id: 2, title: 'Activity Two', description: 'Description for activity two.' },
-  // Add more activities as needed
-];
+import activity1Image1 from './assets/pic-1.png';
+
+
+// Import additional images as needed
 
 function ExtraCurricular() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
-
   return (
-    <div className="extra-curricular">
+    <div className="extracurricular">
       <h2>Extra-Curricular Activities</h2>
-      <Slider {...settings}>
-        {activities.map((activity) => (
-          <div key={activity.id} className="activity-item">
-            <h3>{activity.title}</h3>
-            <p>{activity.description}</p>
-          </div>
-        ))}
-      </Slider>
+      <div className="activity">
+        
+        <div className="image-container">
+          <img src={activity1Image1} alt="Activity 1 Image 1" className="activity-image" />
+      
+          
+          
+          {/* Add more images as needed */}
+        </div>
+      </div>
     </div>
   );
 }
