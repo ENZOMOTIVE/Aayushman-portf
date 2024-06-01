@@ -13,7 +13,8 @@ function ExtraCurricular() {
       <div className="activity">
         
         <div className="image-container">
-          <img src={activity1Image1} alt="Activity 1 Image 1" className="activity-image" />
+        <img src={activity1Image1} alt="Activity 1" className="activity-image" />
+
       
           
           
